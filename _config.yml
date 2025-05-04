@@ -1,9 +1,21 @@
-# Arquivo de configuração básico para o Jekyll
-# Este arquivo pode ficar vazio ou conter configurações adicionais no futuro.
-# Sua presença ajuda o GitHub Pages a processar os arquivos Markdown.
+# Arquivo de configuração para o Jekyll
+# Adicionando um tema básico para ajudar na formatação
 
-# title: Seu Título da Wiki (Opcional)
-# description: Uma breve descrição (Opcional)
-
-# theme: minima (Opcional: para usar um tema padrão do Jekyll)
 title: Guia Tomorrow MMO Brasil
+description: Wiki completa e não oficial para jogadores de Tomorrow MMO
+
+# Especifica o tema Jekyll a ser usado
+theme: minima
+
+# Exclui arquivos ou pastas que não devem ser copiados para o site final
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
