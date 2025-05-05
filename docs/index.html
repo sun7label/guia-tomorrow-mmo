@@ -1,101 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GUIA TOMORROW MMO WIKI</title>
+  <title>Guia Tomorrow MMO</title>
   <style>
     body {
       margin: 0;
+      background-color: #2e2e2e;
       font-family: 'Segoe UI', sans-serif;
-      background: url('img/bgFORT.jpg') no-repeat center center fixed;
-      background-size: cover;
       color: #fff;
     }
     header {
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(0, 0, 0, 0.8);
+      padding: 1rem;
       text-align: center;
-      padding: 2rem 1rem 1rem;
     }
     header img {
-      max-width: 400px;
-      width: 60%;
+      max-width: 300px;
       height: auto;
     }
     .container {
       display: flex;
+      flex-direction: row;
       padding: 2rem;
       gap: 2rem;
-      background-color: rgba(0, 0, 0, 0.75);
     }
-    .nav {
-      flex: 0 0 250px;
-      background-color: rgba(0, 0, 0, 0.7);
+    .sidebar {
+      flex: 0 0 220px;
+      background-color: #111;
       padding: 1rem;
       border-radius: 8px;
     }
-    .nav h2 {
+    .sidebar h2 {
+      color: #00f0f0;
       font-size: 1.2rem;
       margin-bottom: 1rem;
-      color: #00e5e5;
-      text-shadow: 1px 1px 2px #000;
     }
-    .nav a {
+    .sidebar a {
       display: block;
-      background-color: rgba(35, 127, 138, 0.9);
+      background-color: #227b88;
       color: #fff;
-      border: 1px solid #0a0a0a;
-      margin-bottom: 0.5rem;
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
       text-decoration: none;
+      padding: 0.6rem;
+      margin-bottom: 0.5rem;
+      border-radius: 8px;
       font-weight: bold;
+      text-align: center;
+      border: 1px solid #0a0a0a;
       text-shadow: 1px 1px 2px #000;
     }
-    .nav a:hover {
+    .sidebar a:hover {
       background-color: #30c2d0;
     }
     .main {
       flex: 1;
-      background-color: rgba(58, 85, 34, 0.7);
+      background-color: #3d4d2a;
       padding: 2rem;
       border-radius: 8px;
       box-shadow: 0 0 10px #000;
     }
     .main h1 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
       color: #fff;
-      text-transform: uppercase;
-    }
-    .main p {
-      line-height: 1.6;
+      font-size: 1.5rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="img/logoupbanner.png" alt="Guia Tomorrow MMO Wiki" />
+    <img src="logoupbanner.png" alt="Guia Tomorrow MMO" />
   </header>
   <div class="container">
-    <aside class="nav">
+    <div class="sidebar">
       <h2>Navegação</h2>
-      <a href="social/index.html">Social</a>
-      <a href="personagem/index.html">Personagem</a>
-      <a href="construcao/index.html">Construção</a>
-      <a href="defesa/index.html">Defesa</a>
-      <a href="economia/index.html">Economia</a>
-      <a href="itens/index.html">Itens</a>
-      <a href="mapa/index.html">Mapa</a>
-      <a href="habilidades/index.html">Habilidades</a>
-      <a href="missões/index.html">Missões</a>
-    </aside>
-    <main class="main">
+      <a href="#">Social</a>
+      <a href="#">Personagem</a>
+      <a href="#">Construção</a>
+      <a href="#">Defesa</a>
+      <a href="#">Economia</a>
+      <a href="#">Itens</a>
+    </div>
+    <div class="main">
       <h1>Bem-vindo ao Guia Tomorrow MMO</h1>
       <p>Este é o Wiki completo e não oficial do jogo Tomorrow MMO, desenvolvido para ajudar todos os sobreviventes a entender melhor as mecânicas, sistemas, estratégias e curiosidades do jogo.</p>
       <p>Explore os menus ao lado para acessar conteúdos sobre construção, combate, inimigos, sistema de clãs, missões e muito mais.</p>
-    </main>
+    </div>
   </div>
 </body>
 </html>
